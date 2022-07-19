@@ -1,6 +1,6 @@
 <script>
     import * as Pancake from '@sveltejs/pancake'; 
-import data from '../../Historical/Components/data';
+    import data from '../../Historical/Components/data';
 
     let x1 = +Infinity;
     let x2 = -Infinity;
@@ -166,4 +166,4 @@ import data from '../../Historical/Components/data';
 		display: block;
 		font-size: 14px;
 	}
-</style>n    
+</style>

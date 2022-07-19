@@ -2,6 +2,7 @@
 	import Historical from "./Historical/Historical.svelte"
 	import Live from "./Live/Live.svelte"
 	import Test from "./Test/TestMain.svelte"
+	
 
 	let sectionSelected = "Test";
 
