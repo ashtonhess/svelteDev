@@ -2,9 +2,9 @@
 	import Historical from "./Historical/Historical.svelte"
 	import Live from "./Live/Live.svelte"
 	import Test from "./Test/TestMain.svelte"
-	
-
-	let sectionSelected = "Test";
+	import Test2 from "./Test2/Test2Main.svelte"
+	import Test3 from "./Test3/Test3Main.svelte"
+	let sectionSelected = "Test3";
 
 </script>
 
@@ -23,6 +23,8 @@
 	<option value={"Live"}>Live Trigger Counts</option>
 	<option value={"Historical"}>Historical Trigger Counts</option>
 	<option value={"Test"}>Testing</option>
+	<option value={"Test2"}>Test2</option>
+	<option value={"Test3"}>Test3</option>
 </select>
 
 
@@ -32,6 +34,10 @@
 	<Historical/>
 {:else if sectionSelected == "Test"}	
 	<Test/>
+{:else if sectionSelected == "Test2"}	
+	<Test2/>
+{:else if sectionSelected == "Test3"}	
+	<Test3/>
 {/if}
 
 
